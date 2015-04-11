@@ -1,0 +1,12 @@
+This eq will have:
+-1 LowCut filter:
+	-center frequency control
+-1 HighCut filter:
+	-center frequency control
+-3 peak filters:
+	-center frequency control
+	-resonance control
+	-gain control
+-the possibility to enhance harmonics from the third peak filter:
+	-Number of harmonics
+	-gain
