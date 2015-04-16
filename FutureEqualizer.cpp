@@ -4,9 +4,9 @@
 using namespace LV2;
 
 FutureEqualizer::FutureEqualizer(double rate)
-  : Plugin<FutureEqualizer>(6) {
-    hcToggle = true;
-    lcToggle = true;
+  : Plugin<FutureEqualizer>(8) {
+    hcToggle = false;
+    lcToggle = false;
 }
   
 void FutureEqualizer::FutureEqualizer::run(uint32_t nframes) {
@@ -34,6 +34,26 @@ void FutureEqualizer::updateControllers()
     lcL.calculateCoefs(*p(0), 1);
     lcvalues = lcL.returnCoefs();
     lcR.applyCoefs(lcvalues);
+  }
+
+  if(*p(6) == 1.0)
+  {
+    lcToggle = true;
+  }
+
+  if(*p(6) == 0.0)
+  {
+    lcToggle = false;
+  }
+
+  if(*p(7) == 1.0)
+  {
+    hcToggle = true;
+  }
+
+  if(*p(7) == 0.0)
+  {
+    hcToggle = false;
   }
 }
 

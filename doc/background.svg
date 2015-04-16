@@ -1,0 +1,1401 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="background.svg"
+   inkscape:export-filename="/home/quentin/Documents/Dev/gitdev/FutureEqualizer/background.png"
+   inkscape:export-xdpi="260"
+   inkscape:export-ydpi="260">
+  <defs
+     id="defs4">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4258"
+       x="-0.13818218"
+       width="1.2763644"
+       y="-0.15861939"
+       height="1.3172388">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.3896779"
+         id="feGaussianBlur4260" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4262"
+       x="-0.13929813"
+       width="1.2785963"
+       y="-0.075978425"
+       height="1.1519569">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.3896779"
+         id="feGaussianBlur4264" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4266"
+       x="-0.13929813"
+       width="1.2785963"
+       y="-0.075978425"
+       height="1.1519569">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.3896779"
+         id="feGaussianBlur4268" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4270"
+       x="-0.13929813"
+       width="1.2785963"
+       y="-0.075978425"
+       height="1.1519569">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.3896779"
+         id="feGaussianBlur4272" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4274"
+       x="-0.13929813"
+       width="1.2785963"
+       y="-0.075978425"
+       height="1.1519569">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.3896779"
+         id="feGaussianBlur4276" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4278"
+       x="-0.13818218"
+       width="1.2763644"
+       y="-0.15861939"
+       height="1.3172388">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.3896779"
+         id="feGaussianBlur4280" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4282"
+       x="-0.065028169"
+       width="1.1300563"
+       y="-0.15927041"
+       height="1.3185408">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.3896779"
+         id="feGaussianBlur4284" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter5504"
+       x="-0.087061332"
+       width="1.1741227"
+       y="-0.047486516"
+       height="1.094973">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.4935487"
+         id="feGaussianBlur5506" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter5508"
+       x="-0.040642606"
+       width="1.0812852"
+       y="-0.099544005"
+       height="1.199088">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.4935487"
+         id="feGaussianBlur5510" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter5516"
+       x="-0.087061332"
+       width="1.1741227"
+       y="-0.047486516"
+       height="1.094973">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.4935487"
+         id="feGaussianBlur5518" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter5520"
+       x="-0.087061332"
+       width="1.1741227"
+       y="-0.047486516"
+       height="1.094973">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.4935487"
+         id="feGaussianBlur5522" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter5524"
+       x="-0.087061332"
+       width="1.1741227"
+       y="-0.047486516"
+       height="1.094973">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.4935487"
+         id="feGaussianBlur5526" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter5528"
+       x="-0.086363864"
+       width="1.1727277"
+       y="-0.099137117"
+       height="1.1982742">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.4935487"
+         id="feGaussianBlur5530" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4215"
+       x="-0.022067444"
+       width="1.0441349"
+       y="-0.11837377"
+       height="1.2367475">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.7408225"
+         id="feGaussianBlur4217" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4351"
+       x="-0.0078708673"
+       width="1.0157417"
+       y="-0.084473101"
+       height="1.1689462">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.26397844"
+         id="feGaussianBlur4353" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter6629"
+       x="-0.068634068"
+       width="1.1372681"
+       y="-0.26702308"
+       height="1.5340462">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.29279172"
+         id="feGaussianBlur6631" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.6687159"
+     inkscape:cx="422.73925"
+     inkscape:cy="553.49618"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="1920"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:0.31112531;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4136"
+       width="187.39851"
+       height="121.34521"
+       x="445.42288"
+       y="448.17212" />
+    <rect
+       ry="0.89999998"
+       style="fill:#000000;fill-opacity:1;stroke:#424242;stroke-width:0.32499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4258)"
+       id="rect4188"
+       width="41.504822"
+       height="36.157162"
+       x="542.14258"
+       y="450.36172" />
+    <rect
+       y="450.62668"
+       x="541.87762"
+       height="36.157162"
+       width="41.504822"
+       id="rect4156"
+       style="fill:#c2c2c2;fill-opacity:1;stroke:#c55858;stroke-width:0.82499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.33333333"
+       ry="0.89999998"
+       rx="124" />
+    <rect
+       ry="0.89999998"
+       y="491.38339"
+       x="588.4256"
+       height="75.48494"
+       width="41.172318"
+       id="rect4288"
+       style="fill:#ffffff;fill-opacity:1;stroke:#424242;stroke-width:0.32499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5524)" />
+    <rect
+       ry="0.89999998"
+       y="491.38339"
+       x="588.4256"
+       height="75.48494"
+       width="41.172318"
+       id="rect4190"
+       style="fill:#000000;fill-opacity:1;stroke:#424242;stroke-width:0.32499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4262)" />
+    <rect
+       ry="0.89999998"
+       style="fill:#ffffff;fill-opacity:1;stroke:#424242;stroke-width:0.32499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5516)"
+       id="rect4290"
+       width="41.172318"
+       height="75.48494"
+       x="542.336"
+       y="491.38339" />
+    <rect
+       style="fill:#c2c2c2;fill-opacity:1;stroke:#c55858;stroke-width:0.82499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.33333334"
+       id="rect4160"
+       width="41.172318"
+       height="75.48494"
+       x="588.4256"
+       y="491.38339"
+       ry="0.89999998"
+       rx="124" />
+    <rect
+       ry="0.89999998"
+       y="491.38339"
+       x="495.12228"
+       height="75.48494"
+       width="41.172318"
+       id="rect4292"
+       style="fill:#ffffff;fill-opacity:1;stroke:#424242;stroke-width:0.32499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5520)" />
+    <rect
+       ry="0.89999998"
+       style="fill:#000000;fill-opacity:1;stroke:#424242;stroke-width:0.32499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4266)"
+       id="rect4192"
+       width="41.172318"
+       height="75.48494"
+       x="542.336"
+       y="491.38339" />
+    <rect
+       ry="0.89999998"
+       style="fill:#ffffff;fill-opacity:1;stroke:#424242;stroke-width:0.32499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5504)"
+       id="rect4294"
+       width="41.172318"
+       height="75.48494"
+       x="447.90857"
+       y="491.38339" />
+    <rect
+       y="491.38339"
+       x="542.336"
+       height="75.48494"
+       width="41.172318"
+       id="rect4168"
+       style="fill:#c2c2c2;fill-opacity:1;stroke:#c55858;stroke-width:0.82499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.33333334"
+       ry="0.89999998"
+       rx="124" />
+    <rect
+       ry="0.89999998"
+       y="450.36172"
+       x="588.60687"
+       height="36.157162"
+       width="41.504822"
+       id="rect4296"
+       style="fill:#ffffff;fill-opacity:1;stroke:#424242;stroke-width:0.32499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5528)" />
+    <rect
+       ry="0.89999998"
+       y="491.38339"
+       x="495.12228"
+       height="75.48494"
+       width="41.172318"
+       id="rect4194"
+       style="fill:#000000;fill-opacity:1;stroke:#424242;stroke-width:0.32499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4270)" />
+    <rect
+       y="450.43561"
+       x="448.53845"
+       height="36.009369"
+       width="88.196037"
+       id="rect4298"
+       style="fill:#ffffff;fill-opacity:1;stroke:#424242;stroke-width:0.325;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5508)"
+       ry="0.89632124" />
+    <rect
+       style="fill:#c2c2c2;fill-opacity:1;stroke:#c55858;stroke-width:0.82499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.33333334"
+       id="rect4170"
+       width="41.172318"
+       height="75.48494"
+       x="495.12228"
+       y="491.38339"
+       ry="0.89999998"
+       rx="124" />
+    <rect
+       ry="0.89999998"
+       style="fill:#000000;fill-opacity:1;stroke:#424242;stroke-width:0.32499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4274)"
+       id="rect4196"
+       width="41.172318"
+       height="75.48494"
+       x="447.90857"
+       y="491.38339" />
+    <rect
+       y="491.38339"
+       x="447.90857"
+       height="75.48494"
+       width="41.172318"
+       id="rect4172"
+       style="fill:#c2c2c2;fill-opacity:1;stroke:#c55858;stroke-width:0.82499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.33333334"
+       ry="0.89999998"
+       rx="124" />
+    <rect
+       ry="0.89999998"
+       y="450.36172"
+       x="588.60687"
+       height="36.157162"
+       width="41.504822"
+       id="rect4198"
+       style="fill:#000000;fill-opacity:1;stroke:#424242;stroke-width:0.32499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4278)" />
+    <rect
+       style="fill:#c2c2c2;fill-opacity:1;stroke:#c55858;stroke-width:0.82499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.33333333"
+       id="rect4174"
+       width="41.504822"
+       height="36.157162"
+       x="588.07697"
+       y="450.62668"
+       ry="0.89999998"
+       rx="124" />
+    <rect
+       y="450.43561"
+       x="448.53845"
+       height="36.009369"
+       width="88.196037"
+       id="rect4200"
+       style="fill:#000000;fill-opacity:1;stroke:#424242;stroke-width:0.325;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4282)"
+       ry="0.89632124" />
+    <rect
+       ry="0.89632124"
+       style="fill:#c2c2c2;fill-opacity:1;stroke:#c55858;stroke-width:0.82499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.33333334"
+       id="rect4184"
+       width="88.196037"
+       height="36.009369"
+       x="448.53845"
+       y="450.43561"
+       rx="124" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4195"
+       y="470.24704"
+       x="450.40387"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#010000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter4215)"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'Big John';-inkscape-font-specification:'Big John';fill:#010000;fill-opacity:1;"
+         y="470.24704"
+         x="450.40387"
+         id="tspan4197"
+         sodipodi:role="line">FUTURE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#c55858;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       x="450.40387"
+       y="470.24704"
+       id="text4191"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4193"
+         x="450.40387"
+         y="470.24704"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'Big John';-inkscape-font-specification:'Big John';fill:#c55858;fill-opacity:1;">FUTURE</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4223"
+       y="479.80222"
+       x="450.77859"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter4351)"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe';letter-spacing:2.92px;fill:#ffffff;fill-opacity:1;"
+         y="479.80222"
+         x="450.77859"
+         id="tspan4225"
+         sodipodi:role="line">equalizer</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="450.77859"
+       y="479.80222"
+       id="text4219"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4221"
+         x="450.77859"
+         y="479.80222"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe';letter-spacing:2.92px">equalizer</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="551.22253"
+       y="456.45477"
+       id="text4355"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4357"
+         x="551.22253"
+         y="456.45477"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'">LOWCUT</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4363"
+       y="456.45477"
+       x="597.06085"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="456.45477"
+         x="597.06085"
+         id="tspan4365"
+         sodipodi:role="line">highCUT</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4367"
+       y="497.78876"
+       x="553.87213"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="497.78876"
+         x="553.87213"
+         id="tspan4369"
+         sodipodi:role="line">Peak 3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="506.44403"
+       y="497.78876"
+       id="text4371"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4373"
+         x="506.44403"
+         y="497.78876"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'">Peak 2</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4375"
+       y="497.78876"
+       x="458.75098"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="497.78876"
+         x="458.75098"
+         id="tspan4377"
+         sodipodi:role="line">Peak 1</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4379"
+       y="497.78876"
+       x="590.17181"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="497.78876"
+         x="590.17181"
+         sodipodi:role="line"
+         id="tspan4383">Peak 3 HARM</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4387"
+       y="456.45477"
+       x="551.22253"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="456.45477"
+         x="551.22253"
+         id="tspan4389"
+         sodipodi:role="line">LOWCUT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="597.06085"
+       y="456.45477"
+       id="text4391"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4393"
+         x="597.06085"
+         y="456.45477"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'">highCUT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="553.87213"
+       y="497.78876"
+       id="text4395"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4397"
+         x="553.87213"
+         y="497.78876"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'">Peak 3</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4399"
+       y="497.78876"
+       x="506.44403"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="497.78876"
+         x="506.44403"
+         id="tspan4401"
+         sodipodi:role="line">Peak 2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="458.75098"
+       y="497.78876"
+       id="text4403"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4405"
+         x="458.75098"
+         y="497.78876"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'">Peak 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="590.17181"
+       y="497.78876"
+       id="text4407"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan4409"
+         sodipodi:role="line"
+         x="590.17181"
+         y="497.78876"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'">Peak 3 HARM</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.63226104px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="454.96207"
+       y="510.09225"
+       id="text6130"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6132"
+         x="454.96207"
+         y="510.09225"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'">Freq</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6134"
+       y="529.69934"
+       x="454.96207"
+       style="font-style:normal;font-weight:normal;font-size:3.63226104px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="529.69934"
+         x="454.96207"
+         id="tspan6136"
+         sodipodi:role="line">Res</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.63226104px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="454.96207"
+       y="549.3717"
+       id="text6138"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6140"
+         x="454.96207"
+         y="549.3717"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'">Gain</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6142"
+       y="510.09225"
+       x="454.96207"
+       style="font-style:normal;font-weight:normal;font-size:3.63226104px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="510.09225"
+         x="454.96207"
+         id="tspan6144"
+         sodipodi:role="line">Freq</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.63226104px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="454.96207"
+       y="529.69934"
+       id="text6146"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6148"
+         x="454.96207"
+         y="529.69934"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'">Res</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6150"
+       y="549.3717"
+       x="454.96207"
+       style="font-style:normal;font-weight:normal;font-size:3.63226104px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="549.3717"
+         x="454.96207"
+         id="tspan6152"
+         sodipodi:role="line">Gain</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6202"
+       y="510.09225"
+       x="501.6004"
+       style="font-style:normal;font-weight:normal;font-size:3.63226104px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="510.09225"
+         x="501.6004"
+         id="tspan6204"
+         sodipodi:role="line">Freq</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.63226104px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="501.6004"
+       y="529.69934"
+       id="text6206"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6208"
+         x="501.6004"
+         y="529.69934"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'">Res</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6210"
+       y="549.3717"
+       x="501.6004"
+       style="font-style:normal;font-weight:normal;font-size:3.63226104px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="549.3717"
+         x="501.6004"
+         id="tspan6212"
+         sodipodi:role="line">Gain</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.63226104px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="501.6004"
+       y="510.09225"
+       id="text6214"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6216"
+         x="501.6004"
+         y="510.09225"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'">Freq</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6218"
+       y="529.69934"
+       x="501.6004"
+       style="font-style:normal;font-weight:normal;font-size:3.63226104px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="529.69934"
+         x="501.6004"
+         id="tspan6220"
+         sodipodi:role="line">Res</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.63226104px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="501.6004"
+       y="549.3717"
+       id="text6222"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6224"
+         x="501.6004"
+         y="549.3717"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'">Gain</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.63226104px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="548.81415"
+       y="510.09225"
+       id="text6280"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6282"
+         x="548.81415"
+         y="510.09225"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'">Freq</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6284"
+       y="529.69934"
+       x="548.81415"
+       style="font-style:normal;font-weight:normal;font-size:3.63226104px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="529.69934"
+         x="548.81415"
+         id="tspan6286"
+         sodipodi:role="line">Res</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.63226104px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="548.81415"
+       y="549.3717"
+       id="text6288"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6290"
+         x="548.81415"
+         y="549.3717"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'">Gain</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6292"
+       y="510.09225"
+       x="548.81415"
+       style="font-style:normal;font-weight:normal;font-size:3.63226104px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="510.09225"
+         x="548.81415"
+         id="tspan6294"
+         sodipodi:role="line">Freq</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.63226104px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="548.81415"
+       y="529.69934"
+       id="text6296"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6298"
+         x="548.81415"
+         y="529.69934"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'">Res</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6300"
+       y="549.3717"
+       x="548.81415"
+       style="font-style:normal;font-weight:normal;font-size:3.63226104px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="549.3717"
+         x="548.81415"
+         id="tspan6302"
+         sodipodi:role="line">Gain</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.63226104px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="549.0625"
+       y="471.2189"
+       id="text6310"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6312"
+         x="549.0625"
+         y="471.2189"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'">Freq</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6314"
+       y="471.2189"
+       x="549.0625"
+       style="font-style:normal;font-weight:normal;font-size:3.63226104px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="471.2189"
+         x="549.0625"
+         id="tspan6316"
+         sodipodi:role="line">Freq</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6336"
+       y="470.48279"
+       x="595.16577"
+       style="font-style:normal;font-weight:normal;font-size:3.63226104px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="470.48279"
+         x="595.16577"
+         id="tspan6338"
+         sodipodi:role="line">Freq</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.63226104px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="595.16577"
+       y="470.48279"
+       id="text6340"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6342"
+         x="595.16577"
+         y="470.48279"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'">Freq</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6378"
+       y="510.09225"
+       x="592.79773"
+       style="font-style:normal;font-weight:normal;font-size:3.63226104px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="510.09225"
+         x="592.79773"
+         id="tspan6380"
+         sodipodi:role="line">range</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.63226104px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="595.71234"
+       y="510.09225"
+       id="text6382"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6384"
+         x="595.71234"
+         y="510.09225"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'" /><tspan
+         sodipodi:role="line"
+         x="595.71234"
+         y="514.63257"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         id="tspan6388" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.63226104px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="592.79773"
+       y="510.09225"
+       id="text6390"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6392"
+         x="592.79773"
+         y="510.09225"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'">range</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.63226104px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="594.91742"
+       y="549.04163"
+       id="text6410"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6412"
+         x="594.91742"
+         y="549.04163"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'">GAIN</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6414"
+       y="529.16949"
+       x="594.91742"
+       style="font-style:normal;font-weight:normal;font-size:3.63226104px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="529.16949"
+         x="594.91742"
+         id="tspan6416"
+         sodipodi:role="line" /></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6420"
+       y="549.04163"
+       x="594.91742"
+       style="font-style:normal;font-weight:normal;font-size:3.63226104px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="549.04163"
+         x="594.91742"
+         id="tspan6422"
+         sodipodi:role="line">GAIN</tspan></text>
+    <rect
+       ry="0.57461029"
+       rx="93.464424"
+       y="482.1806"
+       x="558.15399"
+       height="2.6316082"
+       width="10.238358"
+       id="rect6483"
+       style="opacity:1;fill:#bcbcbc;fill-opacity:1;stroke:#494242;stroke-width:0.22499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.79908675;filter:url(#filter6629)"
+       transform="matrix(0.61382357,0,0,0.61382357,217.06304,186.71492)" />
+    <rect
+       style="opacity:1;fill:#999292;fill-opacity:1;stroke:#777575;stroke-width:0.13838999;stroke-miterlimit:4;stroke-dasharray:0.13838999, 0.13838999;stroke-dashoffset:0;stroke-opacity:0.79908675"
+       id="rect6479"
+       width="6.2845449"
+       height="1.6153432"
+       x="559.67114"
+       y="482.68872"
+       rx="57.370667"
+       ry="0.35270935" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16.68339348px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="568.71588"
+       y="484.1524"
+       id="text6647"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6649"
+         x="568.71588"
+         y="484.1524"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.08542418px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'">on</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6651"
+       y="484.1524"
+       x="554.07678"
+       style="font-style:normal;font-weight:normal;font-size:16.68339348px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.08542418px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="484.1524"
+         x="554.07678"
+         id="tspan6653"
+         sodipodi:role="line">OFF</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6655"
+       y="484.1524"
+       x="568.71588"
+       style="font-style:normal;font-weight:normal;font-size:16.68339348px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.08542418px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="484.1524"
+         x="568.71588"
+         id="tspan6657"
+         sodipodi:role="line">on</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16.68339348px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="554.07678"
+       y="484.1524"
+       id="text6659"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6661"
+         x="554.07678"
+         y="484.1524"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.08542418px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'">OFF</tspan></text>
+    <rect
+       transform="matrix(0.61382357,0,0,0.61382357,263.52733,186.71492)"
+       style="opacity:1;fill:#bcbcbc;fill-opacity:1;stroke:#494242;stroke-width:0.22499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.79908675;filter:url(#filter6629)"
+       id="rect6725"
+       width="10.238358"
+       height="2.6316082"
+       x="558.15399"
+       y="482.1806"
+       rx="93.464424"
+       ry="0.57461029" />
+    <rect
+       ry="0.35270935"
+       rx="57.370667"
+       y="482.68872"
+       x="606.13544"
+       height="1.6153432"
+       width="6.2845449"
+       id="rect6727"
+       style="opacity:1;fill:#999292;fill-opacity:1;stroke:#777575;stroke-width:0.13838999;stroke-miterlimit:4;stroke-dasharray:0.13838999, 0.13838999;stroke-dashoffset:0;stroke-opacity:0.79908675" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text6733"
+       y="484.1524"
+       x="615.18018"
+       style="font-style:normal;font-weight:normal;font-size:16.68339348px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.08542418px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="484.1524"
+         x="615.18018"
+         id="tspan6735"
+         sodipodi:role="line">on</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16.68339348px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="600.54108"
+       y="484.1524"
+       id="text6737"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6739"
+         x="600.54108"
+         y="484.1524"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.08542418px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'">OFF</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16.68339348px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="615.18018"
+       y="484.1524"
+       id="text6741"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6743"
+         x="615.18018"
+         y="484.1524"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.08542418px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'">on</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6745"
+       y="484.1524"
+       x="600.54108"
+       style="font-style:normal;font-weight:normal;font-size:16.68339348px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.08542418px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="484.1524"
+         x="600.54108"
+         id="tspan6747"
+         sodipodi:role="line">OFF</tspan></text>
+    <rect
+       ry="0.57461029"
+       rx="93.464424"
+       y="482.1806"
+       x="558.15399"
+       height="2.6316082"
+       width="10.238358"
+       id="rect6751"
+       style="opacity:1;fill:#bcbcbc;fill-opacity:1;stroke:#494242;stroke-width:0.22499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.79908675;filter:url(#filter6629)"
+       transform="matrix(0.61382357,0,0,0.61382357,263.52733,265.96652)" />
+    <rect
+       style="opacity:1;fill:#999292;fill-opacity:1;stroke:#777575;stroke-width:0.13838999;stroke-miterlimit:4;stroke-dasharray:0.13838999, 0.13838999;stroke-dashoffset:0;stroke-opacity:0.79908675"
+       id="rect6753"
+       width="6.2845449"
+       height="1.6153432"
+       x="606.13544"
+       y="561.94031"
+       rx="57.370667"
+       ry="0.35270935" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16.68339348px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="615.18018"
+       y="563.40399"
+       id="text6759"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6761"
+         x="615.18018"
+         y="563.40399"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.08542418px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'">on</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6763"
+       y="563.40399"
+       x="600.54108"
+       style="font-style:normal;font-weight:normal;font-size:16.68339348px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.08542418px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="563.40399"
+         x="600.54108"
+         id="tspan6765"
+         sodipodi:role="line">OFF</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6767"
+       y="563.40399"
+       x="615.18018"
+       style="font-style:normal;font-weight:normal;font-size:16.68339348px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.08542418px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="563.40399"
+         x="615.18018"
+         id="tspan6769"
+         sodipodi:role="line">on</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16.68339348px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="600.54108"
+       y="563.40399"
+       id="text6771"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6773"
+         x="600.54108"
+         y="563.40399"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.08542418px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'">OFF</tspan></text>
+    <rect
+       transform="matrix(0.61382357,0,0,0.61382357,217.25039,265.96652)"
+       style="opacity:1;fill:#bcbcbc;fill-opacity:1;stroke:#494242;stroke-width:0.22499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.79908675;filter:url(#filter6629)"
+       id="rect6777"
+       width="10.238358"
+       height="2.6316082"
+       x="558.15399"
+       y="482.1806"
+       rx="93.464424"
+       ry="0.57461029" />
+    <rect
+       ry="0.35270935"
+       rx="57.370667"
+       y="561.94031"
+       x="559.85852"
+       height="1.6153432"
+       width="6.2845449"
+       id="rect6779"
+       style="opacity:1;fill:#999292;fill-opacity:1;stroke:#777575;stroke-width:0.13838999;stroke-miterlimit:4;stroke-dasharray:0.13838999, 0.13838999;stroke-dashoffset:0;stroke-opacity:0.79908675" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text6785"
+       y="563.40399"
+       x="568.90326"
+       style="font-style:normal;font-weight:normal;font-size:16.68339348px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.08542418px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="563.40399"
+         x="568.90326"
+         id="tspan6787"
+         sodipodi:role="line">on</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16.68339348px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="554.26416"
+       y="563.40399"
+       id="text6789"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6791"
+         x="554.26416"
+         y="563.40399"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.08542418px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'">OFF</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16.68339348px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="568.90326"
+       y="563.40399"
+       id="text6793"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6795"
+         x="568.90326"
+         y="563.40399"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.08542418px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'">on</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6797"
+       y="563.40399"
+       x="554.26416"
+       style="font-style:normal;font-weight:normal;font-size:16.68339348px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.08542418px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="563.40399"
+         x="554.26416"
+         id="tspan6799"
+         sodipodi:role="line">OFF</tspan></text>
+    <rect
+       ry="0.57461029"
+       rx="93.464424"
+       y="482.1806"
+       x="558.15399"
+       height="2.6316082"
+       width="10.238358"
+       id="rect6803"
+       style="opacity:1;fill:#bcbcbc;fill-opacity:1;stroke:#494242;stroke-width:0.22499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.79908675;filter:url(#filter6629)"
+       transform="matrix(0.61382357,0,0,0.61382357,169.84932,265.96652)" />
+    <rect
+       style="opacity:1;fill:#999292;fill-opacity:1;stroke:#777575;stroke-width:0.13838999;stroke-miterlimit:4;stroke-dasharray:0.13838999, 0.13838999;stroke-dashoffset:0;stroke-opacity:0.79908675"
+       id="rect6805"
+       width="6.2845449"
+       height="1.6153432"
+       x="512.45746"
+       y="561.94031"
+       rx="57.370667"
+       ry="0.35270935" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16.68339348px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="521.5022"
+       y="563.40399"
+       id="text6811"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6813"
+         x="521.5022"
+         y="563.40399"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.08542418px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'">on</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6815"
+       y="563.40399"
+       x="506.8631"
+       style="font-style:normal;font-weight:normal;font-size:16.68339348px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.08542418px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="563.40399"
+         x="506.8631"
+         id="tspan6817"
+         sodipodi:role="line">OFF</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6819"
+       y="563.40399"
+       x="521.5022"
+       style="font-style:normal;font-weight:normal;font-size:16.68339348px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.08542418px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="563.40399"
+         x="521.5022"
+         id="tspan6821"
+         sodipodi:role="line">on</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16.68339348px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="506.8631"
+       y="563.40399"
+       id="text6823"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6825"
+         x="506.8631"
+         y="563.40399"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.08542418px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'">OFF</tspan></text>
+    <rect
+       transform="matrix(0.61382357,0,0,0.61382357,122.26089,265.96652)"
+       style="opacity:1;fill:#bcbcbc;fill-opacity:1;stroke:#494242;stroke-width:0.22499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.79908675;filter:url(#filter6629)"
+       id="rect6829"
+       width="10.238358"
+       height="2.6316082"
+       x="558.15399"
+       y="482.1806"
+       rx="93.464424"
+       ry="0.57461029" />
+    <rect
+       ry="0.35270935"
+       rx="57.370667"
+       y="561.94031"
+       x="464.86902"
+       height="1.6153432"
+       width="6.2845449"
+       id="rect6831"
+       style="opacity:1;fill:#999292;fill-opacity:1;stroke:#777575;stroke-width:0.13838999;stroke-miterlimit:4;stroke-dasharray:0.13838999, 0.13838999;stroke-dashoffset:0;stroke-opacity:0.79908675" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text6837"
+       y="563.40399"
+       x="473.91376"
+       style="font-style:normal;font-weight:normal;font-size:16.68339348px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.08542418px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="563.40399"
+         x="473.91376"
+         id="tspan6839"
+         sodipodi:role="line">on</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16.68339348px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="459.27466"
+       y="563.40399"
+       id="text6841"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6843"
+         x="459.27466"
+         y="563.40399"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.08542418px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'">OFF</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16.68339348px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="473.91376"
+       y="563.40399"
+       id="text6845"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6847"
+         x="473.91376"
+         y="563.40399"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.08542418px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'">on</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6849"
+       y="563.40399"
+       x="459.27466"
+       style="font-style:normal;font-weight:normal;font-size:16.68339348px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.08542418px;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="563.40399"
+         x="459.27466"
+         id="tspan6851"
+         sodipodi:role="line">OFF</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.63226104px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="597.83203"
+       y="529.69934"
+       id="text6871"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6873"
+         x="597.83203"
+         y="529.69934"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'">Res</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6875"
+       y="529.69934"
+       x="597.83203"
+       style="font-style:normal;font-weight:normal;font-size:3.63226104px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Slim Joe';-inkscape-font-specification:'Slim Joe'"
+         y="529.69934"
+         x="597.83203"
+         id="tspan6877"
+         sodipodi:role="line">Res</tspan></text>
+  </g>
+</svg>
