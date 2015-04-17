@@ -71,11 +71,6 @@ float Knob::getValue()
 	}
 }
 
-void Knob::handleEvent(GdkEventExpose* event)
-{
-
-}
-
 void Knob::checkClickZone(int x, int y)
 {
 	if( (x>xpos && x<(xpos+60)) && (y>ypos && y<(ypos+60)) )

@@ -24,6 +24,14 @@ public:
     {
       UI_display->refreshHighCutFreq((*static_cast<const float*>(buffer)));
     }
+    else if(port == 6)
+    {
+      UI_display->refreshLCSwitch((*static_cast<const float*>(buffer)));
+    }
+    else if(port == 7)
+    {
+      UI_display->refreshHCSwitch((*static_cast<const float*>(buffer)));
+    }
   }
 
   void writeLCFrequency(float value)
@@ -34,6 +42,16 @@ public:
   void writeHCFrequency(float value)
   {
     write_control(1, value);
+  }
+
+  void writeLCSwitch(float value)
+  {
+    write_control(6, value);
+  }
+
+  void writeHCSwitch(float value)
+  {
+    write_control(7, value);
   }
 
 protected:

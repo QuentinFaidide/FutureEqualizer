@@ -13,6 +13,8 @@ UI::UI(FutureEqualizerGUI* parent)
 	parentClass = parent;
 	kn_lc_freq = new Knob(10, 10000, 10, true);
 	kn_hc_freq = new Knob(10, 20000, 20000, true);
+	sw_lc = new Switch();
+	sw_hc = new Switch();
 }
 
 UI::~UI()
@@ -36,6 +38,8 @@ bool UI::on_expose_event(GdkEventExpose* event)
 
 	kn_lc_freq->drawKnob(cr, 343, 40);
 	kn_hc_freq->drawKnob(cr, 475, 40);
+	sw_lc->drawSwitch(cr, 336, 106);
+	sw_hc->drawSwitch(cr, 470, 106);
 
 	return true;
 }
@@ -51,6 +55,11 @@ bool UI::on_button_press_event(GdkEventButton*event)
 		ymovemem = ymouseorigin;
 		kn_lc_freq->checkClickZone(event->x, event->y);
 		kn_hc_freq->checkClickZone(event->x, event->y);
+		sw_lc->checkClickZone(event->x, event->y);
+		sw_hc->checkClickZone(event->x, event->y);
+		parentClass->writeLCSwitch(sw_lc->getValue());
+		parentClass->writeHCSwitch(sw_hc->getValue());
+		queue_draw_area(0,0,560, 370);
 	}
 }
 
@@ -65,6 +74,19 @@ void UI::refreshHighCutFreq(float value)
 	kn_hc_freq->setValue(value);
 	queue_draw_area(0,0,560, 370);
 }
+
+void UI::refreshLCSwitch(float value)
+{
+	sw_lc->setValue(value);
+	queue_draw_area(0,0,560, 370);
+}
+
+void UI::refreshHCSwitch(float value)
+{
+	sw_hc->setValue(value);
+	queue_draw_area(0,0,560, 370);
+}
+
 
 bool UI::on_button_release_event(GdkEventButton*event)
 {

@@ -11,8 +11,8 @@ $(BUNDLE): manifest.ttl future_equalizer.ttl FutureEqualizer.so FutureEqualizerG
 FutureEqualizer.so: FutureEqualizer.cpp FutureEqualizer.hpp LowCut.cpp LowCut.hpp HighCut.cpp HighCut.hpp
 	g++ -shared -fPIC -DPIC FutureEqualizer.cpp LowCut.cpp HighCut.cpp `pkg-config --cflags --libs lv2-plugin` -o FutureEqualizer.so 
 
-FutureEqualizerGUI.so: FutureEqualizerGUI.cpp UI.cpp UI.hpp Knob.cpp
-	g++ -shared -fPIC -DPIC FutureEqualizerGUI.cpp UI.cpp Knob.cpp `pkg-config --cflags --libs lv2-gui` -o FutureEqualizerGUI.so
+FutureEqualizerGUI.so: FutureEqualizerGUI.cpp UI.cpp UI.hpp Knob.cpp Switch.hpp Switch.cpp Knob.hpp 
+	g++ -shared -fPIC -DPIC FutureEqualizerGUI.cpp Switch.cpp UI.cpp Knob.cpp `pkg-config --cflags --libs lv2-gui` -o FutureEqualizerGUI.so
 
 install: $(BUNDLE)
 	mkdir -p $(INSTALL_DIR)

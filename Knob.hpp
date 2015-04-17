@@ -15,7 +15,6 @@ public:
 	float getValue();
 	void checkClickZone(int x, int y);
 	void onRelease();
-	void handleEvent(GdkEventExpose* event);
 	void addUp();
 	void addDown();
 
