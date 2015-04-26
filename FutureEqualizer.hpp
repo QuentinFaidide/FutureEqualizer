@@ -4,6 +4,7 @@
 #include <lv2plugin.hpp>
 #include "HighCut.hpp"
 #include "LowCut.hpp"
+#include "Peak.hpp"
 
 using namespace LV2;
 
@@ -21,8 +22,9 @@ private:
   float filterR(float sample);
   HighCut hcL, hcR;
   LowCut lcL, lcR;
-  bool hcToggle;
-  bool lcToggle;
+  Peak p1L, p1R;
+
+  bool hcToggle, lcToggle, p1Toggle;
   float samplebuffer;
 
 };

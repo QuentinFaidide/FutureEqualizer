@@ -4,9 +4,10 @@
 using namespace LV2;
 
 FutureEqualizer::FutureEqualizer(double rate)
-  : Plugin<FutureEqualizer>(8) {
+  : Plugin<FutureEqualizer>(12) {
     hcToggle = false;
     lcToggle = false;
+    p1Toggle = false;
 }
   
 void FutureEqualizer::FutureEqualizer::run(uint32_t nframes) {
@@ -36,6 +37,14 @@ void FutureEqualizer::updateControllers()
     lcR.applyCoefs(lcvalues);
   }
 
+  PK_Coefs pkvalues = p1L.returnCoefs();
+  if( (*p(9) != pkvalues._f0) or (*p(10) != pkvalues._res) or (*p(11) != pkvalues._gain) )
+  {
+    p1L.calculateCoefs(*p(9), *p(10), *p(11));
+    pkvalues = p1L.returnCoefs();
+    p1R.applyCoefs(pkvalues);
+  }
+
   if(*p(6) == 1.0)
   {
     lcToggle = true;
@@ -55,6 +64,16 @@ void FutureEqualizer::updateControllers()
   {
     hcToggle = false;
   }
+
+  if(*p(8) == 1.0)
+  {
+    p1Toggle = true;
+  }
+
+  if(*p(8) == 0.0)
+  {
+    p1Toggle = false;
+  }
 }
 
 float FutureEqualizer::filterL(float sample)
@@ -68,6 +87,11 @@ float FutureEqualizer::filterL(float sample)
   if(lcToggle)
   {
     samplebuffer = lcL.process(samplebuffer);
+  }
+
+  if(p1Toggle)
+  {
+    samplebuffer = p1L.process(samplebuffer);
   }
 
   return samplebuffer;
@@ -84,6 +108,11 @@ float FutureEqualizer::filterR(float sample)
   if(lcToggle)
   {
     samplebuffer = lcR.process(samplebuffer);
+  }
+
+  if(p1Toggle)
+  {
+    samplebuffer = p1R.process(samplebuffer);
   }
 
   return samplebuffer;
