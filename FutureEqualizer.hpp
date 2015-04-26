@@ -22,9 +22,9 @@ private:
   float filterR(float sample);
   HighCut hcL, hcR;
   LowCut lcL, lcR;
-  Peak p1L, p1R, p2L, p2R;
+  Peak p1L, p1R, p2L, p2R, p3L, p3R;
 
-  bool hcToggle, lcToggle, p1Toggle, p2Toggle;
+  bool hcToggle, lcToggle, p1Toggle, p2Toggle, p3Toggle;
   float samplebuffer;
 
 };

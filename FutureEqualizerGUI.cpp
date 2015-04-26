@@ -64,6 +64,22 @@ public:
     {
       UI_display->refreshPeak2Gain((*static_cast<const float*>(buffer)));
     }
+    else if(port == 16)
+    {
+      UI_display->refreshP3Switch((*static_cast<const float*>(buffer)));
+    }
+    else if(port == 17)
+    {
+      UI_display->refreshPeak3Freq((*static_cast<const float*>(buffer)));
+    }
+    else if(port == 18)
+    {
+      UI_display->refreshPeak3Res((*static_cast<const float*>(buffer)));
+    }
+    else if(port == 19)
+    {
+      UI_display->refreshPeak3Gain((*static_cast<const float*>(buffer)));
+    }
 
   }
 
@@ -125,6 +141,26 @@ public:
   void writeP2Gain(float value)
   {
     write_control(15, value);
+  }
+
+    void writeP3Switch(float value)
+  {
+    write_control(16, value);
+  }
+
+  void writeP3Frequency(float value)
+  {
+    write_control(17, value);
+  }
+
+  void writeP3Resonance(float value)
+  {
+    write_control(18, value);
+  }
+
+  void writeP3Gain(float value)
+  {
+    write_control(19, value);
   }
 
 protected:
