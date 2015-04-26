@@ -31,7 +31,7 @@ bool UI::on_expose_event(GdkEventExpose* event)
 
 	if (!image)
     {
-    	std::cout << "Image aps chargé" << std::endl;
+    	std::cout << "FutureEqualizer: Can't find background image where it belongs" << std::endl;
     }
 	Gdk::Cairo::set_source_pixbuf(cr, image, 0,0);
 	cr->rectangle(0, 0, image->get_width(), image->get_height());
