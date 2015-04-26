@@ -15,6 +15,7 @@ UI::UI(FutureEqualizerGUI* parent)
 	kn_hc_freq = new Knob(10, 20000, 20000, true);
 	sw_lc = new Switch();
 	sw_hc = new Switch();
+	sw_p1 = new Switch();
 }
 
 UI::~UI()
@@ -40,6 +41,7 @@ bool UI::on_expose_event(GdkEventExpose* event)
 	kn_hc_freq->drawKnob(cr, 475, 40);
 	sw_lc->drawSwitch(cr, 336, 106);
 	sw_hc->drawSwitch(cr, 470, 106);
+	sw_p1->drawSwitch(cr, 62, 336);
 
 	return true;
 }
@@ -57,8 +59,10 @@ bool UI::on_button_press_event(GdkEventButton*event)
 		kn_hc_freq->checkClickZone(event->x, event->y);
 		sw_lc->checkClickZone(event->x, event->y);
 		sw_hc->checkClickZone(event->x, event->y);
+		sw_p1->checkClickZone(event->x, event->y);
 		parentClass->writeLCSwitch(sw_lc->getValue());
 		parentClass->writeHCSwitch(sw_hc->getValue());
+		parentClass->writeP1Switch(sw_p1->getValue());
 		queue_draw_area(0,0,560, 370);
 	}
 }
@@ -84,6 +88,12 @@ void UI::refreshLCSwitch(float value)
 void UI::refreshHCSwitch(float value)
 {
 	sw_hc->setValue(value);
+	queue_draw_area(0,0,560, 370);
+}
+
+void UI::refreshP1Switch(float value)
+{
+	sw_p1->setValue(value);
 	queue_draw_area(0,0,560, 370);
 }
 

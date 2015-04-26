@@ -18,6 +18,7 @@ public:
 	void refreshHighCutFreq(float value);
 	void refreshLCSwitch(float value);
 	void refreshHCSwitch(float value);
+	void refreshP1Switch(float value);
 
 protected:
 	virtual bool on_expose_event(GdkEventExpose* event);
@@ -29,7 +30,7 @@ protected:
 	Glib::RefPtr<Gdk::Pixbuf> image;
 	FutureEqualizerGUI *parentClass;
 	Knob *kn_lc_freq, *kn_hc_freq;
-	Switch *sw_lc, *sw_hc;
+	Switch *sw_lc, *sw_hc, *sw_p1;
 };
 
 #endif // DEF_UI_HPP

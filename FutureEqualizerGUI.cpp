@@ -32,6 +32,10 @@ public:
     {
       UI_display->refreshHCSwitch((*static_cast<const float*>(buffer)));
     }
+    else if(port == 8)
+    {
+      UI_display->refreshP1Switch((*static_cast<const float*>(buffer)));
+    }
   }
 
   void writeLCFrequency(float value)
@@ -52,6 +56,11 @@ public:
   void writeHCSwitch(float value)
   {
     write_control(7, value);
+  }
+
+  void writeP1Switch(float value)
+  {
+    write_control(8, value);
   }
 
 protected:
