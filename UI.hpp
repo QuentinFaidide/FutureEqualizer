@@ -19,9 +19,13 @@ public:
 	void refreshPeak1Freq(float value);
 	void refreshPeak1Res(float value);
 	void refreshPeak1Gain(float value);
+	void refreshPeak2Freq(float value);
+	void refreshPeak2Res(float value);
+	void refreshPeak2Gain(float value);
 	void refreshLCSwitch(float value);
 	void refreshHCSwitch(float value);
 	void refreshP1Switch(float value);
+	void refreshP2Switch(float value);
 
 protected:
 	virtual bool on_expose_event(GdkEventExpose* event);
@@ -32,8 +36,8 @@ protected:
 	int xmouseorigin, ymouseorigin, xmovemem, ymovemem;
 	Glib::RefPtr<Gdk::Pixbuf> image;
 	FutureEqualizerGUI *parentClass;
-	Knob *kn_lc_freq, *kn_hc_freq, *kn_p1_freq, *kn_p1_res, *kn_p1_gain;
-	Switch *sw_lc, *sw_hc, *sw_p1;
+	Knob *kn_lc_freq, *kn_hc_freq, *kn_p1_freq, *kn_p1_res, *kn_p1_gain, *kn_p2_freq, *kn_p2_res, *kn_p2_gain;
+	Switch *sw_lc, *sw_hc, *sw_p1, *sw_p2;
 };
 
 #endif // DEF_UI_HPP

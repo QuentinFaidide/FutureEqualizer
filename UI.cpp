@@ -16,9 +16,13 @@ UI::UI(FutureEqualizerGUI* parent)
 	kn_p1_freq = new Knob(10, 20000, 200, true);
 	kn_p1_res  = new Knob(0.6, 10, 1, false);
 	kn_p1_gain = new Knob(-24, 24, 0, false);
+	kn_p2_freq = new Knob(10, 20000, 700, true);
+	kn_p2_res  = new Knob(0.6, 10, 1, false);
+	kn_p2_gain = new Knob(-24, 24, 0, false);
 	sw_lc = new Switch();
 	sw_hc = new Switch();
 	sw_p1 = new Switch();
+	sw_p2 = new Switch();
 }
 
 UI::~UI()
@@ -45,9 +49,13 @@ bool UI::on_expose_event(GdkEventExpose* event)
 	kn_p1_freq->drawKnob(cr, 75, 163);
 	kn_p1_res->drawKnob(cr, 75, 218);
 	kn_p1_gain->drawKnob(cr, 75, 274);
+	kn_p2_freq->drawKnob(cr, 212, 163);
+	kn_p2_res->drawKnob(cr, 212, 218);
+	kn_p2_gain->drawKnob(cr, 212, 274);
 	sw_lc->drawSwitch(cr, 336, 106);
 	sw_hc->drawSwitch(cr, 470, 106);
 	sw_p1->drawSwitch(cr, 62, 336);
+	sw_p2->drawSwitch(cr, 199, 336);
 
 	return true;
 }
@@ -66,12 +74,17 @@ bool UI::on_button_press_event(GdkEventButton*event)
 		kn_p1_freq->checkClickZone(event->x, event->y);
 		kn_p1_res->checkClickZone(event->x, event->y);
 		kn_p1_gain->checkClickZone(event->x, event->y);
+		kn_p2_freq->checkClickZone(event->x, event->y);
+		kn_p2_res->checkClickZone(event->x, event->y);
+		kn_p2_gain->checkClickZone(event->x, event->y);
 		sw_lc->checkClickZone(event->x, event->y);
 		sw_hc->checkClickZone(event->x, event->y);
 		sw_p1->checkClickZone(event->x, event->y);
+		sw_p2->checkClickZone(event->x, event->y);
 		parentClass->writeLCSwitch(sw_lc->getValue());
 		parentClass->writeHCSwitch(sw_hc->getValue());
 		parentClass->writeP1Switch(sw_p1->getValue());
+		parentClass->writeP2Switch(sw_p2->getValue());
 		queue_draw_area(0,0,560, 370);
 	}
 }
@@ -106,6 +119,24 @@ void UI::refreshPeak1Gain(float value)
 	queue_draw_area(0,0,560, 370);
 }
 
+void UI::refreshPeak2Freq(float value)
+{
+	kn_p2_freq->setValue(value);
+	queue_draw_area(0,0,560, 370);
+}
+
+void UI::refreshPeak2Res(float value)
+{
+	kn_p2_res->setValue(value);
+	queue_draw_area(0,0,560, 370);
+}
+
+void UI::refreshPeak2Gain(float value)
+{
+	kn_p2_gain->setValue(value);
+	queue_draw_area(0,0,560, 370);
+}
+
 void UI::refreshLCSwitch(float value)
 {
 	sw_lc->setValue(value);
@@ -124,6 +155,11 @@ void UI::refreshP1Switch(float value)
 	queue_draw_area(0,0,560, 370);
 }
 
+void UI::refreshP2Switch(float value)
+{
+	sw_p2->setValue(value);
+	queue_draw_area(0,0,560, 370);
+}
 
 bool UI::on_button_release_event(GdkEventButton*event)
 {
@@ -135,6 +171,9 @@ bool UI::on_button_release_event(GdkEventButton*event)
 		kn_p1_freq->onRelease();
 		kn_p1_res->onRelease();
 		kn_p1_gain->onRelease();
+		kn_p2_freq->onRelease();
+		kn_p2_res->onRelease();
+		kn_p2_gain->onRelease();
 	}
 }
 
@@ -149,6 +188,9 @@ bool UI::on_motion_notify_event(GdkEventMotion* event)
 			kn_p1_freq->addUp();
 			kn_p1_res->addUp();
 			kn_p1_gain->addUp();
+			kn_p2_freq->addUp();
+			kn_p2_res->addUp();
+			kn_p2_gain->addUp();
 			xmovemem = event->x;
 			ymovemem = event->y;
 			parentClass->writeLCFrequency(kn_lc_freq->getValue());
@@ -156,6 +198,9 @@ bool UI::on_motion_notify_event(GdkEventMotion* event)
 			parentClass->writeP1Frequency(kn_p1_freq->getValue());
 			parentClass->writeP1Resonance(kn_p1_res->getValue());
 			parentClass->writeP1Gain(kn_p1_gain->getValue());
+			parentClass->writeP2Frequency(kn_p2_freq->getValue());
+			parentClass->writeP2Resonance(kn_p2_res->getValue());
+			parentClass->writeP2Gain(kn_p2_gain->getValue());
 		}
 		if(event->y > ymovemem)
 		{
@@ -164,6 +209,9 @@ bool UI::on_motion_notify_event(GdkEventMotion* event)
 			kn_p1_freq->addDown();
 			kn_p1_res->addDown();
 			kn_p1_gain->addDown();
+			kn_p2_freq->addDown();
+			kn_p2_res->addDown();
+			kn_p2_gain->addDown();
 			xmovemem = event->x;
 			ymovemem = event->y;
 			parentClass->writeLCFrequency(kn_lc_freq->getValue());
@@ -171,6 +219,9 @@ bool UI::on_motion_notify_event(GdkEventMotion* event)
 			parentClass->writeP1Frequency(kn_p1_freq->getValue());
 			parentClass->writeP1Resonance(kn_p1_res->getValue());
 			parentClass->writeP1Gain(kn_p1_gain->getValue());
+			parentClass->writeP2Frequency(kn_p2_freq->getValue());
+			parentClass->writeP2Resonance(kn_p2_res->getValue());
+			parentClass->writeP2Gain(kn_p2_gain->getValue());
 		}
 		queue_draw_area(0,0,560, 370);
 	}

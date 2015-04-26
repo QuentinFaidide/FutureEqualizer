@@ -48,6 +48,23 @@ public:
     {
       UI_display->refreshPeak1Gain((*static_cast<const float*>(buffer)));
     }
+    else if(port == 12)
+    {
+      UI_display->refreshP2Switch((*static_cast<const float*>(buffer)));
+    }
+    else if(port == 13)
+    {
+      UI_display->refreshPeak2Freq((*static_cast<const float*>(buffer)));
+    }
+    else if(port == 14)
+    {
+      UI_display->refreshPeak2Res((*static_cast<const float*>(buffer)));
+    }
+    else if(port == 15)
+    {
+      UI_display->refreshPeak2Gain((*static_cast<const float*>(buffer)));
+    }
+
   }
 
   void writeLCFrequency(float value)
@@ -88,6 +105,26 @@ public:
   void writeP1Switch(float value)
   {
     write_control(8, value);
+  }
+
+  void writeP2Switch(float value)
+  {
+    write_control(12, value);
+  }
+
+  void writeP2Frequency(float value)
+  {
+    write_control(13, value);
+  }
+
+  void writeP2Resonance(float value)
+  {
+    write_control(14, value);
+  }
+
+  void writeP2Gain(float value)
+  {
+    write_control(15, value);
   }
 
 protected:
