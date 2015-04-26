@@ -36,6 +36,18 @@ public:
     {
       UI_display->refreshP1Switch((*static_cast<const float*>(buffer)));
     }
+    else if(port == 9)
+    {
+      UI_display->refreshPeak1Freq((*static_cast<const float*>(buffer)));
+    }
+    else if(port == 10)
+    {
+      UI_display->refreshPeak1Res((*static_cast<const float*>(buffer)));
+    }
+    else if(port == 11)
+    {
+      UI_display->refreshPeak1Gain((*static_cast<const float*>(buffer)));
+    }
   }
 
   void writeLCFrequency(float value)
@@ -46,6 +58,21 @@ public:
   void writeHCFrequency(float value)
   {
     write_control(1, value);
+  }
+
+  void writeP1Frequency(float value)
+  {
+    write_control(9, value);
+  }
+
+  void writeP1Resonance(float value)
+  {
+    write_control(10, value);
+  }
+
+  void writeP1Gain(float value)
+  {
+    write_control(11, value);
   }
 
   void writeLCSwitch(float value)

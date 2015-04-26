@@ -73,7 +73,7 @@ float Knob::getValue()
 
 void Knob::checkClickZone(int x, int y)
 {
-	if( (x>xpos && x<(xpos+60)) && (y>ypos && y<(ypos+60)) )
+	if( (x>xpos && x<(xpos+50)) && (y>ypos && y<(ypos+50)) )
 	{
 		clicked = true;
 	}

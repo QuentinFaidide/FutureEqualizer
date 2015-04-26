@@ -16,6 +16,9 @@ public:
 	virtual ~UI();
 	void refreshLowCutFreq(float value);
 	void refreshHighCutFreq(float value);
+	void refreshPeak1Freq(float value);
+	void refreshPeak1Res(float value);
+	void refreshPeak1Gain(float value);
 	void refreshLCSwitch(float value);
 	void refreshHCSwitch(float value);
 	void refreshP1Switch(float value);
@@ -29,7 +32,7 @@ protected:
 	int xmouseorigin, ymouseorigin, xmovemem, ymovemem;
 	Glib::RefPtr<Gdk::Pixbuf> image;
 	FutureEqualizerGUI *parentClass;
-	Knob *kn_lc_freq, *kn_hc_freq;
+	Knob *kn_lc_freq, *kn_hc_freq, *kn_p1_freq, *kn_p1_res, *kn_p1_gain;
 	Switch *sw_lc, *sw_hc, *sw_p1;
 };
 
