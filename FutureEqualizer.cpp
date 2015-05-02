@@ -27,7 +27,7 @@ void FutureEqualizer::updateControllers()
   HC_Coefs hcvalues = hcL.returnCoefs();
   if(*p(1) != hcvalues._f0)
   {
-    hcL.calculateCoefs(*p(1), 1);
+    hcL.calculateCoefs(*p(1), 2);
     hcvalues = hcL.returnCoefs();
     hcR.applyCoefs(hcvalues);
   }
@@ -35,7 +35,7 @@ void FutureEqualizer::updateControllers()
   LC_Coefs lcvalues = lcL.returnCoefs();
   if(*p(0) != lcvalues._f0)
   {
-    lcL.calculateCoefs(*p(0), 1);
+    lcL.calculateCoefs(*p(0), 2);
     lcvalues = lcL.returnCoefs();
     lcR.applyCoefs(lcvalues);
   }

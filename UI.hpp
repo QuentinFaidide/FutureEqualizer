@@ -30,6 +30,10 @@ public:
 	void refreshP1Switch(float value);
 	void refreshP2Switch(float value);
 	void refreshP3Switch(float value);
+	void refreshHarmMode(float value);
+	void refreshHarmGain(float value);
+	void refreshHarmRes(float value);
+	void refreshHaSwitch(float value);
 
 protected:
 	virtual bool on_expose_event(GdkEventExpose* event);
@@ -40,8 +44,8 @@ protected:
 	int xmouseorigin, ymouseorigin, xmovemem, ymovemem;
 	Glib::RefPtr<Gdk::Pixbuf> image;
 	FutureEqualizerGUI *parentClass;
-	Knob *kn_lc_freq, *kn_hc_freq, *kn_p1_freq, *kn_p1_res, *kn_p1_gain, *kn_p2_freq, *kn_p2_res, *kn_p2_gain, *kn_p3_freq, *kn_p3_res, *kn_p3_gain;
-	Switch *sw_lc, *sw_hc, *sw_p1, *sw_p2, *sw_p3;
+	Knob *kn_lc_freq, *kn_hc_freq, *kn_p1_freq, *kn_p1_res, *kn_p1_gain, *kn_p2_freq, *kn_p2_res, *kn_p2_gain, *kn_p3_freq, *kn_p3_res, *kn_p3_gain, *kn_ha_mode, *kn_ha_res, *kn_ha_gain;
+	Switch *sw_lc, *sw_hc, *sw_p1, *sw_p2, *sw_p3, *sw_ha;
 };
 
 #endif // DEF_UI_HPP

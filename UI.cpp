@@ -22,11 +22,15 @@ UI::UI(FutureEqualizerGUI* parent)
 	kn_p3_freq = new Knob(10, 20000, 2000, true);
 	kn_p3_res  = new Knob(0.6, 10, 1, false);
 	kn_p3_gain = new Knob(-24, 24, 0, false);
+	kn_ha_mode = new Knob(0, 1, 0.1, false);
+	kn_ha_res = new Knob(1, 10, 2, false);
+	kn_ha_gain = new Knob(-12, 12, 0, false);
 	sw_lc = new Switch();
 	sw_hc = new Switch();
 	sw_p1 = new Switch();
 	sw_p2 = new Switch();
 	sw_p3 = new Switch();
+	sw_ha = new Switch();
 }
 
 UI::~UI()
@@ -64,6 +68,10 @@ bool UI::on_expose_event(GdkEventExpose* event)
 	sw_p1->drawSwitch(cr, 62, 336);
 	sw_p2->drawSwitch(cr, 199, 336);
 	sw_p3->drawSwitch(cr, 336, 336);
+	sw_ha->drawSwitch(cr, 471, 336);
+	kn_ha_mode->drawKnob(cr, 484, 163);
+	kn_ha_res->drawKnob(cr, 484, 218);
+	kn_ha_gain->drawKnob(cr, 484, 274);
 
 	return true;
 }
@@ -88,16 +96,21 @@ bool UI::on_button_press_event(GdkEventButton*event)
 		kn_p3_freq->checkClickZone(event->x, event->y);
 		kn_p3_res->checkClickZone(event->x, event->y);
 		kn_p3_gain->checkClickZone(event->x, event->y);
+		kn_ha_mode->checkClickZone(event->x, event->y);
+		kn_ha_res->checkClickZone(event->x, event->y);
+		kn_ha_gain->checkClickZone(event->x, event->y);
 		sw_lc->checkClickZone(event->x, event->y);
 		sw_hc->checkClickZone(event->x, event->y);
 		sw_p1->checkClickZone(event->x, event->y);
 		sw_p2->checkClickZone(event->x, event->y);
 		sw_p3->checkClickZone(event->x, event->y);
+		sw_ha->checkClickZone(event->x, event->y);
 		parentClass->writeLCSwitch(sw_lc->getValue());
 		parentClass->writeHCSwitch(sw_hc->getValue());
 		parentClass->writeP1Switch(sw_p1->getValue());
 		parentClass->writeP2Switch(sw_p2->getValue());
 		parentClass->writeP3Switch(sw_p3->getValue());
+		parentClass->writeHaSwitch(sw_ha->getValue());
 		queue_draw_area(0,0,560, 370);
 	}
 }
@@ -168,6 +181,24 @@ void UI::refreshPeak3Gain(float value)
 	queue_draw_area(0,0,560, 370);
 }
 
+void UI::refreshHarmMode(float value)
+{
+	kn_ha_mode->setValue(value);
+	queue_draw_area(0,0,560, 370);
+}
+
+void UI::refreshHarmRes(float value)
+{
+	kn_ha_res->setValue(value);
+	queue_draw_area(0,0,560, 370);
+}
+
+void UI::refreshHarmGain(float value)
+{
+	kn_ha_gain->setValue(value);
+	queue_draw_area(0,0,560, 370);
+}
+
 void UI::refreshLCSwitch(float value)
 {
 	sw_lc->setValue(value);
@@ -198,6 +229,12 @@ void UI::refreshP3Switch(float value)
 	queue_draw_area(0,0,560, 370);
 }
 
+void UI::refreshHaSwitch(float value)
+{
+	sw_ha->setValue(value);
+	queue_draw_area(0,0,560, 370);
+}
+
 bool UI::on_button_release_event(GdkEventButton*event)
 {
 	if(event->button == 1)
@@ -214,6 +251,9 @@ bool UI::on_button_release_event(GdkEventButton*event)
 		kn_p3_freq->onRelease();
 		kn_p3_res->onRelease();
 		kn_p3_gain->onRelease();
+		kn_ha_mode->onRelease();
+		kn_ha_res->onRelease();
+		kn_ha_gain->onRelease();
 	}
 }
 
@@ -234,6 +274,9 @@ bool UI::on_motion_notify_event(GdkEventMotion* event)
 			kn_p3_freq->addUp();
 			kn_p3_res->addUp();
 			kn_p3_gain->addUp();
+			kn_ha_mode->addUp();
+			kn_ha_res->addUp();
+			kn_ha_gain->addUp();
 			xmovemem = event->x;
 			ymovemem = event->y;
 			parentClass->writeLCFrequency(kn_lc_freq->getValue());
@@ -247,6 +290,9 @@ bool UI::on_motion_notify_event(GdkEventMotion* event)
 			parentClass->writeP3Frequency(kn_p3_freq->getValue());
 			parentClass->writeP3Resonance(kn_p3_res->getValue());
 			parentClass->writeP3Gain(kn_p3_gain->getValue());
+			parentClass->writeHaMode(kn_ha_mode->getValue());
+			parentClass->writeHaResonance(kn_ha_res->getValue());
+			parentClass->writeHaGain(kn_ha_gain->getValue());
 		}
 		if(event->y > ymovemem)
 		{
@@ -261,6 +307,9 @@ bool UI::on_motion_notify_event(GdkEventMotion* event)
 			kn_p3_freq->addDown();
 			kn_p3_res->addDown();
 			kn_p3_gain->addDown();
+			kn_ha_mode->addDown();
+			kn_ha_res->addDown();
+			kn_ha_gain->addDown();
 			xmovemem = event->x;
 			ymovemem = event->y;
 			parentClass->writeLCFrequency(kn_lc_freq->getValue());
@@ -274,6 +323,9 @@ bool UI::on_motion_notify_event(GdkEventMotion* event)
 			parentClass->writeP3Frequency(kn_p3_freq->getValue());
 			parentClass->writeP3Resonance(kn_p3_res->getValue());
 			parentClass->writeP3Gain(kn_p3_gain->getValue());
+			parentClass->writeHaMode(kn_ha_mode->getValue());
+			parentClass->writeHaResonance(kn_ha_res->getValue());
+			parentClass->writeHaGain(kn_ha_gain->getValue());
 		}
 		queue_draw_area(0,0,560, 370);
 	}

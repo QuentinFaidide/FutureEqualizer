@@ -80,6 +80,22 @@ public:
     {
       UI_display->refreshPeak3Gain((*static_cast<const float*>(buffer)));
     }
+    else if(port == 20)
+    {
+      UI_display->refreshHarmMode((*static_cast<const float*>(buffer)));
+    }
+    else if(port == 21)
+    {
+      UI_display->refreshHarmRes((*static_cast<const float*>(buffer)));
+    }
+    else if(port == 22)
+    {
+      UI_display->refreshHarmGain((*static_cast<const float*>(buffer)));
+    }
+    else if(port == 23)
+    {
+      UI_display->refreshHaSwitch((*static_cast<const float*>(buffer)));
+    }
 
   }
 
@@ -116,6 +132,11 @@ public:
   void writeHCSwitch(float value)
   {
     write_control(7, value);
+  }
+
+  void writeHaSwitch(float value)
+  {
+    write_control(23, value);
   }
 
   void writeP1Switch(float value)
@@ -163,6 +184,20 @@ public:
     write_control(19, value);
   }
 
+  void writeHaMode(float value)
+  {
+    write_control(20, value);
+  }
+
+  void writeHaResonance(float value)
+  {
+    write_control(21, value);
+  }
+
+  void writeHaGain(float value)
+  {
+    write_control(22, value);
+  }
 protected:
   UI* UI_display;  
 };
