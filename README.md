@@ -1,5 +1,5 @@
 # FutureEqualizer
-Experimental equalizer with an innovative harmonics calculation/boost function. Please read below to understand how it works.
+Experimental equalizer with an innovating harmonics calculation/boost function. Please read below to understand how it works.
 
 ![alt tag](https://lh4.googleusercontent.com/-67pKE80FiiA/VUR4Lc9tcgI/AAAAAAAABNU/6QT9fqp8oo4/w563-h374-no/screenshot.jpg)
 
