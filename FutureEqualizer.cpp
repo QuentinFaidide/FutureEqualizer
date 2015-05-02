@@ -4,12 +4,13 @@
 using namespace LV2;
 
 FutureEqualizer::FutureEqualizer(double rate)
-  : Plugin<FutureEqualizer>(20) {
+  : Plugin<FutureEqualizer>(24) {
     hcToggle = false;
     lcToggle = false;
     p1Toggle = false;
     p2Toggle = false;
     p3Toggle = false;
+    harmToggle = false;
 }
   
 void FutureEqualizer::FutureEqualizer::run(uint32_t nframes) {
@@ -63,6 +64,14 @@ void FutureEqualizer::updateControllers()
     p3R.applyCoefs(pkvalues);
   }
 
+  HA_COEFS harmvalues = harmL.returnCoefs();
+  if( (*p(20) != harmvalues._mode) or (*p(21) != harmvalues._res) or (*p(22) != harmvalues._gain) or (*p(17) != harmvalues._pfreq) )
+  {
+    harmL.calculateCoefs(*p(17), *p(21), *p(22), *p(20));
+    harmvalues = harmL.returnCoefs();
+    harmR.applyCoefs(harmvalues);
+  }
+
   if(*p(6) == 1.0)
   {
     lcToggle = true;
@@ -112,6 +121,16 @@ void FutureEqualizer::updateControllers()
   {
     p3Toggle = false;
   }
+
+  if(*p(23) == 0.0)
+  {
+    harmToggle = false;
+  }
+
+  if(*p(23) == 1.0)
+  {
+    harmToggle = true;
+  }
 }
 
 float FutureEqualizer::filterL(float sample)
@@ -140,6 +159,11 @@ float FutureEqualizer::filterL(float sample)
   if(p3Toggle)
   {
     samplebuffer = p3L.process(samplebuffer);
+  }
+
+  if(harmToggle)
+  {
+    samplebuffer = harmL.process(samplebuffer);
   }
 
   return samplebuffer;
@@ -171,6 +195,11 @@ float FutureEqualizer::filterR(float sample)
   if(p3Toggle)
   {
     samplebuffer = p3R.process(samplebuffer);
+  }
+
+  if(harmToggle)
+  {
+    samplebuffer = harmR.process(samplebuffer);
   }
 
 

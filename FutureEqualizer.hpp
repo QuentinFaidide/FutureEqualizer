@@ -4,7 +4,7 @@
 #include <lv2plugin.hpp>
 #include "HighCut.hpp"
 #include "LowCut.hpp"
-#include "Peak.hpp"
+#include "Harmonics.hpp"
 
 using namespace LV2;
 
@@ -23,8 +23,9 @@ private:
   HighCut hcL, hcR;
   LowCut lcL, lcR;
   Peak p1L, p1R, p2L, p2R, p3L, p3R;
+  Harmonics harmR, harmL;
 
-  bool hcToggle, lcToggle, p1Toggle, p2Toggle, p3Toggle;
+  bool hcToggle, lcToggle, p1Toggle, p2Toggle, p3Toggle, harmToggle;
   float samplebuffer;
 
 };

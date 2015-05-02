@@ -8,8 +8,8 @@ $(BUNDLE): manifest.ttl future_equalizer.ttl FutureEqualizer.so FutureEqualizerG
 	mkdir $(BUNDLE)
 	cp manifest.ttl future_equalizer.ttl FutureEqualizer.so FutureEqualizerGUI.so $(BUNDLE)
 
-FutureEqualizer.so: FutureEqualizer.cpp FutureEqualizer.hpp LowCut.cpp LowCut.hpp HighCut.cpp HighCut.hpp Peak.cpp Peak.hpp
-	g++ -shared -fPIC -DPIC FutureEqualizer.cpp LowCut.cpp HighCut.cpp Peak.cpp `pkg-config --cflags --libs lv2-plugin` -o FutureEqualizer.so 
+FutureEqualizer.so: FutureEqualizer.cpp FutureEqualizer.hpp LowCut.cpp LowCut.hpp HighCut.cpp HighCut.hpp Peak.cpp Peak.hpp Harmonics.cpp Harmonics.hpp
+	g++ -shared -fPIC -DPIC FutureEqualizer.cpp LowCut.cpp HighCut.cpp Peak.cpp Harmonics.cpp `pkg-config --cflags --libs lv2-plugin` -o FutureEqualizer.so 
 
 FutureEqualizerGUI.so: FutureEqualizerGUI.cpp UI.cpp UI.hpp Knob.cpp Switch.hpp Switch.cpp Knob.hpp 
 	g++ -shared -fPIC -DPIC FutureEqualizerGUI.cpp Switch.cpp UI.cpp Knob.cpp `pkg-config --cflags --libs lv2-gui` -o FutureEqualizerGUI.so
