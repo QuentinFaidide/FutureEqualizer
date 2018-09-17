@@ -5,8 +5,8 @@ Equalizer with a funny harmonic boost function.
 
 
 This eq computes harmonics from the 3rd peaking eq frequency with 4 Range Modes and let you tweak the gain and resonance as you want.
-Four modes are available using the range knob:
--first quarter: Boost one octave above.
--second quarter: Boost with a 3-notes major chord and one octave.
--third quarter: Boost with a 3-notes minor chord and one octave above.
--last quarter: Boost one and two octave above.
+Four modes are available using the range knob: <br/>
+-first quarter: Boost one octave above.<br/>
+-second quarter: Boost with a 3-notes major chord and one octave.<br/><br/><br/>
+-third quarter: Boost with a 3-notes minor chord and one octave above.<br/><br/>
+-last quarter: Boost one and two octave above.<br/>
