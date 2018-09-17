@@ -1,20 +1,12 @@
 # FutureEqualizer
-Experimental equalizer with a funny harmonic boost function. Please read below to understand how it works.
+Equalizer with a funny harmonic boost function.
 
 ![alt tag](https://lh4.googleusercontent.com/-67pKE80FiiA/VUR4Lc9tcgI/AAAAAAAABNU/6QT9fqp8oo4/w563-h374-no/screenshot.jpg)
 
-## What is this plugin for ?
-This equalizer plugin is useful for mastering, but it works for mixing too.
-The particulary of this eq is a function which calculates harmonics from the 3rd peaking eq frequency with 4 Range Modes and let you tweak the gain and resonance (or q) just as you want.
 
-## Harmonics ? What For ?
-This "harmonics function" was created because a lot of producers are boosting at high frenquencies on different octaves and claim to have a better sounding mastering.
+This eq computes harmonics from the 3rd peaking eq frequency with 4 Range Modes and let you tweak the gain and resonance as you want.
 Four modes are available using the range knob:
--first quarter: Boost one octave up.
--second quarter: Boost with a 3-notes major chord and one octave up.
--third quarter: Boost with a 3-notes minor chord and one octave up.
--last quarter: Boost one and two octave up.
-
-## Can I read the code, steal it, sell it ?
-"GNU General Public License" speak for itself.
-
+-first quarter: Boost one octave above.
+-second quarter: Boost with a 3-notes major chord and one octave.
+-third quarter: Boost with a 3-notes minor chord and one octave above.
+-last quarter: Boost one and two octave above.
